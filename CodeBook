@@ -1,0 +1,24 @@
+Load information:
+
+X_test from UCI HAR Dataset/test/X_test.txt
+X_train from UCI HAR Dataset/train/X_train.txt
+y_test from UCI HAR Dataset/test/y_test.txt
+y_train from UCI HAR Dataset/train/y_train.txt
+subject_test  from UCI HAR Dataset/test/subject_test.txt
+subject_train from UCI HAR Dataset/train/subject_train.txt
+
+features:from freatures.txt
+lables: from activity_labels.txt
+
+ID temp memory.
+Features, Lables: Colnames
+
+Merge datasets by Rows:
+DataSets merge X-test and X-train data
+Subject merge subject_test and subject_train data
+Activity merge y_test and y_train data
+
+DataTotal merge DataSets, Subject, Activity to create the ONE DATA SET.
+
+tidy_data has data only the measurements on the mean and standard deviation for each measurement. 
+Resut has the second, independent tidy data set.
